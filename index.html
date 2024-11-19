@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bakery</title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
@@ -13,22 +15,26 @@
         /></a>
 
         <ul>
-          <li><a href="#traditions-section">Our traditions</a></li>
-          <li><a href="#cooks-section">Our cooks</a></li>
-          <li><a href="#formats-section">Our formats</a></li>
-          <li><a href="#contacts-section">Contacts</a></li>
+          <li>
+            <a class="nav-link" href="#traditions-section">Our traditions</a>
+          </li>
+          <li><a class="nav-link" href="#cooks-section">Our cooks</a></li>
+          <li>
+            <a class="nav-link" href="#formats-section">Our formats</a>
+          </li>
+          <li><a class="nav-link" href="#contacts-section">Contacts</a></li>
         </ul>
       </nav>
-      <button type="button">Make a call</button>
+      <button type="button" class="button">Make a call</button>
     </header>
 
     <main>
       <section>
-        <h1>Sweet Bakery</h1>
+        <h1 class="hero-title"><span class="accent">Sweet</span> Bakery</h1>
       </section>
 
-      <section id="traditions-section">
-        <ul>
+      <section class="section-title" id="traditions-section">
+        <ul class="advantages-list">
           <li>Great demand on the market</li>
           <li>Budget-friendly formats</li>
           <li>Experienced management team</li>
@@ -54,7 +60,9 @@
       </section>
 
       <section id="cooks-section">
-        <h2>Our best cooks</h2>
+        <h2 class="section-title">
+          Our best <span class="accent">cooks</span>
+        </h2>
         <ul>
           <li>
             <artile>
@@ -81,7 +89,7 @@
       </section>
 
       <section id="formats-section">
-        <h2>Bakery Formats</h2>
+        <h2 class="section-title">Bakery Formats</h2>
         <ul>
           <li>
             <article>
@@ -117,7 +125,7 @@
         </ul>
       </section>
 
-      <section id="contacts-section">
+      <section class="section-title" id="contacts-section">
         <h2>Join our Bakery Net</h2>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10138.073417539043!2d30.5182647!3d50.5617264!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d3f40588e007%3A0x2ba268d9102c5851!2z0KDQtdCz0ZbQvtC90LDQu9GM0L3QuNC5INC70LDQvdC00YjQsNGE0YLQvdC40Lkg0L_QsNGA0LogItCf0YLQsNGI0LjQvdC40Lkg0YDQsNC5Ig!5e0!3m2!1suk!2sua!4v1731599395327!5m2!1suk!2sua"
